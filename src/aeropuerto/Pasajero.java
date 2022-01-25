@@ -29,7 +29,7 @@ public class Pasajero implements Runnable {
         System.out.println("el pasajero " + nombrePasajero + " quiere hacer el checkin con la reserva " + codigoReserva);
         String puestoAerolinea = aeropuerto.informacionCheckin(codigoReserva);
         System.out.println("el pasajero " + nombrePasajero + " tiene que ir al puesto de Checkin de " + puestoAerolinea);
-        aeropuerto.hacerCheckin(codigoReserva, puestoAerolinea);
-        aeropuerto.irATerminal(codigoReserva);
+        //aeropuerto.hacerCheckin(codigoReserva, puestoAerolinea);
+        //aeropuerto.irATerminal(codigoReserva);
     }
 }

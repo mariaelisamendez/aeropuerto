@@ -24,7 +24,12 @@ public class Main {
             pasajeros[i] = new Thread(new Pasajero(nombrePasajero, dniPasajero, codigoReserva, aeropuerto));
             pasajeros[i].start();
         }
-        
+         System.out.println("A "+(int)('A'));
+          System.out.println("B "+(int)('B'));
+           System.out.println("C "+(int)('C'));
+            System.out.println("D "+(int)('D'));
+            char letra=(char)(int)(Math.random() * (68-65) + 65);
+            System.out.println("letra "+letra);
       // aeropuerto.verDatosReservas();
     }
 }
